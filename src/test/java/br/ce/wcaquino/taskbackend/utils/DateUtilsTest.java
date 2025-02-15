@@ -30,7 +30,7 @@ public class DateUtilsTest {
 	{
 		
 		LocalDate dateTime = LocalDate.now().plusDays(1);
-		assertFalse(DateUtils.isEqualOrFutureDate(dateTime));
+		assertTrue(DateUtils.isEqualOrFutureDate(dateTime));
 	}
 
 }
